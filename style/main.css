@@ -1,0 +1,106 @@
+@font-face {
+    font-family: poppins;
+    src: url("../fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+    font-family: baskerville;
+    src: url("../fonts/LibreBaskerville-Regular.ttf");
+}
+
+html {
+    background-image: url("../images/frog-background.jpg");
+    background-size: cover;
+}
+
+#main {
+    background-color: lightgrey;
+    border: 5px outset rgb(235, 235, 235);
+
+    margin: 2% auto;
+
+    max-width: 1400px;
+}
+
+.center {
+    text-align: center;
+}
+
+#header-and-nav {
+    padding: 2%;
+    margin: 1%;
+}
+
+header {
+    color: black;
+    background-image: linear-gradient(lightgreen, lightblue);
+    border: 2px double black;
+}
+
+nav {
+    border: 2px outset grey;
+    justify-content: space-between;
+    font-size: large;
+}
+
+footer {
+    color: white;
+}
+
+#link1, #link2, #link3, #link4 {
+    width: 24%;
+    box-sizing: border-box;
+    
+    display: inline-block;
+    text-align: center;
+}
+
+article {
+    background-color: rgb(226, 226, 226);
+    border: 2px outset grey;
+
+    margin: 1% 5%;
+    padding: 1%;
+}
+
+#gallery {
+    columns: 3;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border: 5px double black;
+    border-radius: 5%;
+    box-sizing: border-box;
+
+    margin: 2%;
+}
+
+#img-australian-toad {
+    position: relative;
+    right: 2.5%;
+    float: left;
+
+    max-width: 40%;
+}
+
+#img-frog-contemplating, #img-frog-stare {
+    height: auto;
+    position: relative;
+}
+
+h1, h2 {
+    font-family: baskerville, serif;
+    text-align: center;
+}
+
+p {
+    font-family: poppins, sans-serif;
+    text-align: justify;
+}
+
+hr {
+    border: 2px dotted black;
+    margin: 0% 15%
+}
